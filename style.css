@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(background.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+}
+
+.scroll-container {
+  position: relative;
+  width: 600px;
+  height: auto;
+}
+
+.scroll-img {
+  width: 100%;
+  margin-top: 8%;
+  height: auto;
+  display: block;
+}
+
+.scroll-text {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 80%;
+  height: 70%;
+  color: #3e2b1c;
+  /* Dark brown text to match parchment */
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scroll-text::-webkit-scrollbar {
+  display: none;
+}
+
+.camouflage {
+  color: #c4aa7e;
+}
+
+.car {
+  margin-left: 30px;
+}
